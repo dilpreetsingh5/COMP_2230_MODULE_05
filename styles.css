@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #444;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.controls label {
+    font-size: 1.1rem;
+}
+
+.controls input[type="date"] {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.controls button {
+    padding: 5px 15px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+#photo-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-description {
+    font-size: 2rem; /* Increased from 1.2rem to 1.5rem */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.photo-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.photo-description {
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+}
+
+.footer-description {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
